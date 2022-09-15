@@ -20,9 +20,9 @@ namespace AADReaderApp
             var userList = new List<AaDGroupMember>();
             try
             {
-                var clientId = "576e6c18-fb62-4a89-9cd3-1f83f18ff294";
-                var tenantId = "08fdfb44-3c18-4aa7-9519-72bddc98ad3a";
-                var secret = "qzH8Q~26Su4TryGsUZlCW2nbYeQqd0VqeF7OqdBR";
+                var clientId = "";
+                var tenantId = "";
+                var secret = "";
                 IConfidentialClientApplication confidentialClientApplication = ConfidentialClientApplicationBuilder
                                                                                    .Create(clientId)
                                                                                    .WithTenantId(tenantId)
